@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
+        <title>Tienda de Trombones</title>
+    </head>
+    <body>
+        <header id="header">
+            <div class="logo">
+                <img
+                    src="https://static.vecteezy.com/system/resources/thumbnails/001/206/724/small/wind-music-instrument-trombone.png"
+                    alt="logo de trombon"
+                    id="header-img"
+                />
+                <p>Music Shop</p>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#section-caracteristicas" class="nav-link">Caracteristicas</a></li>
+                    <li><a href="#section-funcionamiento" class="nav-link">¿Comó funciona?</a></li>
+                    <li><a href="#section-precios" class="nav-link">Precios</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <h3>Obras de arte artesanales y caseras</h3>
+            <input type="email" name="email" id="email" placeholder="Ingresa tú correo" required />
+            <input type="submit" id="submit" />
+        </form>
+
+        <section id="section-caracteristicas" class="section-caracteristicas">
+            <div class="grid">
+                <div class="icono">
+                    <i class="fa fa-3x fa-fire"></i>
+                </div>
+                <div class="desc">
+                    <h2>Materiales de alta gama</h2>
+                    <p>
+                        Nuestro producto está construido con materiales que cumplen con todos las especificación y estándares de
+                        calidad establecidas en las normas de producción.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icono">
+                    <i class="fa fa-3x fa-check"></i>
+                </div>
+
+                <div class="desc">
+                    <h2>Garántia de calidad</h2>
+                    <p>
+                        Para cada compra realizada, nos aseguramos de que el producto esté en excelentes condiciones, es decir, no
+                        se encuentren con daños ni defectos.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icono">
+                    <i class="fa fa-3x fa-truck"></i>
+                </div>
+                <div class="desc">
+                    <h2>Envío Rápido</h2>
+                    <p>
+                        Nosotros nos aseguramos de que recibas tu producto tan pronto se haya concluido la construcción. También
+                        ofrecemos devoluciones gratuitas, si no estás satisfecho
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-funcionamiento" class="section-funcionamiento">
+            <iframe
+                id="video"
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+                title="Roman Carnival Overture Op. 9 for Five Trombones"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+            ></iframe>
+        </section>
+
+        <section id="section-precios" class="section-precios">
+            <div class="contenedor" id="product-1">
+                <div class="titulo">Trombón Tenor</div>
+                <img
+                    src="https://images.squarespace-cdn.com/content/v1/57d2f09a6b8f5b98b30057f4/1489676330675-B4JRVK4BD3COX4MOUHIQ/Shires_Trombone_TBCW_ColinWilliams_FullFront_0117.png?format=1000w"
+                    alt="Trombón Tenor"
+                    class="img-produc"
+                    height="300px"
+                />
+                <p class="precio">$11,500.00</p>
+                <p class="desc-produc">Proporciona una flexibilidad tonal suprema para el trombonista de jazz.</p>
+                <button class="btn-select">Seleccionar</button>
+            </div>
+            <div class="contenedor" id="product-2">
+                <div class="titulo">Trombón bajo</div>
+                <img height="300px" src="https://pngimg.com/d/trombone_PNG20.png" alt="Trombón bajo" class="img-produc" />
+                <p class="precio">$17,000.00</p>
+                <p class="desc-produc">
+                    Ofrece una gran sensación de apertura al tocar y produce un timbre enérgico y de gran riqueza.
+                </p>
+                <button class="btn-select">Seleccionar</button>
+            </div>
+            <div class="contenedor" id="product-3">
+                <div class="titulo">Trombón de pistones</div>
+                <img
+                    height="300px"
+                    src="https://static.wixstatic.com/media/adef90_d6414f2f4b064c2eb91f65468512beb0~mv2.png/v1/fill/w_636,h_1436,al_c/adef90_d6414f2f4b064c2eb91f65468512beb0~mv2.png"
+                    alt="Trombón de pistones"
+                    class="img-produc"
+                />
+                <p class="precio">$22,200.00</p>
+                <p class="desc-produc">Para aquellos que no estén familiarizados con las posiciones de la vara.</p>
+                <button class="btn-select">Seleccionar</button>
+            </div>
+        </section>
+        <footer>
+            <div class="links">
+                <ul>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Terminos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <p>Copyright 2023, Music Shop S. A. de C. V.</p>
+        </footer>
+    </body>
+</html>
